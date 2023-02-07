@@ -25,5 +25,32 @@
       <a href=""><i class="fa fa-paper-plane"></i></a>
     </div>
    </div>
+  
+  
+<!--  firebase  -->
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDd1LEyR8cr48b5ZI4cGEIxmoQyBVM7qn0",
+    authDomain: "deepcodez.firebaseapp.com",
+    projectId: "deepcodez",
+    storageBucket: "deepcodez.appspot.com",
+    messagingSenderId: "458283490257",
+    appId: "1:458283490257:web:036d6f5137354c5ba89ef0",
+    measurementId: "G-5MXX7DJYK3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
+<!--  end firebase code  -->
 </body>
 </html>
